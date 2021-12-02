@@ -1,12 +1,10 @@
 input.onButtonPressed(Button.A, function () {
     enter = 1
 })
-input.onButtonPressed(Button.AB, function () {
-	
-})
 input.onButtonPressed(Button.B, function () {
     enter = 2
 })
+// 設定初始值
 let item: number[] = []
 let enter = 0
 let list = [
